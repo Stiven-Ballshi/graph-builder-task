@@ -1,0 +1,72 @@
+body {
+    /* width: 100%;
+    height: 100vh; */
+    text-align: center;
+    background-color: #D0C0F7;
+}
+
+.nodeActions {
+    display: flex;
+    gap: 2rem
+}
+
+.nodeActions button {
+    width: 98px;
+    font-size: 12px;
+    display: block;
+}
+
+.react-flow__node.react-flow__node-default {
+    visibility: visible !important;
+    display: flex !important;
+    width: 100px !important;
+    height: 30px !important;
+    padding: 4px !important;
+}
+
+.react-flow__node-default {
+    border: 1px solid transparent !important;
+}
+
+.plusIcon {
+    font-size: 2rem;
+    border-radius: 50%;
+    background: green;
+    display: inline-block;
+    cursor: pointer;
+    min-width: 2rem;
+    min-height: 2rem;
+}
+
+.plusIcon span {
+    width: 2rem;
+    height: 2rem;
+    color: white;
+}
+
+.actionsModal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min-content;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: white;
+    padding: 10px;
+}
+
+.actionsModal button {
+    width: 110px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.55);
+}
+
+.tool {
+    color: purple;
+}
+
+.crossroad  {
+    margin-left: 10px;
+    color: green;
+}
